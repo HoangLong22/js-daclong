@@ -91,40 +91,8 @@
 
             </tbody>
         </table>
-
     </div>
 </section>
+
 <script src="~/Content/blog.js"></script>
-<script>
-    $('#example').DataTable({
-        data: JSON.parse(dataJson).users,
-        columns: [
-            { data: 'id' },
-            { data: 'name' },
-            { data: 'position' },
-            { data: 'salary' },
-            { data: 'start_date' },
-            { data: 'office' },
-            { data: 'extn' },
-            { data: "", "data": null }
-        ],
-        columnDefs: [
-            {
-                
-                "orderable": false,
-                "targets": 0
-            },
-            {
-                width: '10%',
-                targets: 0  //la primer columna tendra una anchura del  20% de la tabla
-            },
-            {
-                targets: -1, //-1 es la ultima columna y 0 la primera
-                data: null,
-                defaultContent: '<div class="btn-group"><button type="button" class="btn btn-danger"><span><i class="fa fa-trash-alt"></i> Delete</span></button></div>'
-            },
-            { orderable: false, searchable: false, targets: -1 } //Ultima columna no ordenable para botones
-        ], 
-    });
-        
-</script>
+<script src="~/Content/Js/index.js"></script>

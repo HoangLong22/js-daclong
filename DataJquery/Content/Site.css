@@ -12,3 +12,22 @@
 #example {
     text-align: center;
 }
+footer {
+    padding-bottom: 20px;
+}
+.container-button {
+    text-align: center;
+    background-color: #030338;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    .container-button .col-md-1 {
+        padding-left: 2px;
+        width: 80%;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+    }
