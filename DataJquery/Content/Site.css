@@ -1,0 +1,14 @@
+﻿.page-header h3 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: #1e1e6b;
+    color: #fff;
+    font-weight: 700;
+}
+.container-fluid {
+    padding-bottom: 20px;
+}
+#example {
+    text-align: center;
+}
