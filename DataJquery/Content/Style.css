@@ -6,6 +6,7 @@
     color: #fff;
     font-weight: 700;
 }
+
 .container-fluid {
     padding-bottom: 20px;
 }
@@ -22,12 +23,22 @@ footer {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-    .container-button .col-md-1 {
-        padding-left: 2px;
-        width: 80%;
-        -moz-border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        border-radius: 5px;
-    }
+.card-bodys {
+    background-color: #030338;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.btn-outline-primary {
+    color: #fff;
+    border: solid 1px #fff;
+}
+.card-bodys .col-md-1 {
+    flex: 0 0 7.5%;
+    max-width: 7.5%;
+    margin-left: 6px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+.dataTables_filter {
+    display: none;
+}
